@@ -5,10 +5,10 @@ import '../mainscroller/Mainscroller.css';
 import Footer from '../footer/Footer'; 
 
 //Pages 
-import Home from 'C:/code/webprojects/personal_aws/src/pages/home/Home';
-import About from 'C:/code/webprojects/personal_aws/src/pages/about/About'
-import Contact from 'C:/code/webprojects/personal_aws/src/pages/contact/Contact';
-import Skills from 'C:/code/webprojects/personal_aws/src/pages/skills/Skills';
+import Home from '../pages/home/Home';
+import About from '../pages/about/About';
+import Contact from '../pages/contact/Contact';
+import Skills from '../pages/skills/Skills';
 
 export default class MainScroller extends Component {
     render() {
