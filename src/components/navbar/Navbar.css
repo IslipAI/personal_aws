@@ -1,0 +1,45 @@
+.container {
+  position: fixed;
+  height: 100%;
+  width: 60px;
+  background-color: darkslateblue;
+  z-index: 0;
+}
+
+.navbar {
+  position: relative;
+  left: 10px;
+  width: 100%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navbar li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style-type: none;
+}
+
+.navbar a {
+  font-size: 100%;
+  color: #e7f0ed;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #feca01;
+}
+
+/*Responsiveness: Ipad Pro*/
+@media only screen and (max-width: 1024px) {
+  .container {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+}

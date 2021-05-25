@@ -1,0 +1,48 @@
+.skills {
+  display: flex;
+  top: 0px;
+  height: 100vh;
+  background-color: #435969;
+}
+
+.skillsContent {
+  margin-left: 60px;
+}
+
+.myskills {
+  position: relative;
+  font-size: 5vh;
+  width: fit-content;
+  top: 20vh;
+  margin-left: 22%;
+  text-align: left;
+}
+
+.myskills h6 {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.myskills p {
+  margin-top: 0px;
+  font-size: 2vh;
+}
+
+/*Responsiveness: Ipad Pro*/
+@media only screen and (max-width: 1024px) {
+  .myskills p {
+    font-size: 20px;
+  }
+  .myskills {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 5%;
+  }
+}
+
+/*Responsiveness: Iphone X*/
+@media only screen and (max-width: 375px) {
+  .skills {
+    width: 375px;
+  }
+}

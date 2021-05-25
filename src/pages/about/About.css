@@ -1,0 +1,49 @@
+.about {
+  display: flex;
+  top: 0px;
+  height: 100vh;
+  background-color: #e7f0ed;
+}
+
+.aboutContent {
+  margin-left: 60px;
+}
+
+.aboutme {
+  position: relative;
+  font-size: 40px;
+  width: fit-content;
+  top: 100px;
+  margin-left: 13%;
+  text-align: left;
+}
+
+.aboutme p {
+  font-size: 30px;
+}
+
+/*Responsiveness: Ipad Pro - width*/
+@media only screen and (max-width: 1024px) {
+  .aboutme p {
+    font-size: 20px;
+  }
+}
+
+/*Responsiveness: Ipad - width*/
+@media only screen and (max-width: 768px) {
+  .aboutme {
+    margin-left: 4%;
+  }
+
+  .aboutme p {
+    font-size: 20px;
+  }
+}
+
+/*Responsiveness: Iphone X - width*/
+@media only screen and (max-width: 375px) {
+  .aboutme {
+    margin-left: 0%;
+    width: 300px;
+  }
+}

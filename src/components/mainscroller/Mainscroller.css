@@ -1,0 +1,36 @@
+.mainScroller {
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+  background-color: indianred;
+}
+
+/*Responsiveness: Ipad Pro width*/
+@media only screen and (max-width: 1024px) {
+  .mainScroller {
+    width: 1024px;
+  }
+}
+
+/*Responsiveness: Ipad width*/
+@media only screen and (max-width: 768px) {
+  .mainScroller {
+    width: 768px;
+  }
+}
+
+/*Responsiveness: Ipad width*/
+@media only screen and (max-width: 414px) {
+  .mainScroller {
+    width: 414px;
+  }
+}
+
+/*Responsiveness: Iphone X width*/
+@media only screen and (max-width: 375px) {
+  .mainScroller {
+    width: 375px;
+  }
+}

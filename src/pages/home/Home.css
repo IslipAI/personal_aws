@@ -1,0 +1,54 @@
+.home {
+  display: flex;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #212931;
+}
+
+.homeContent {
+  width: fit-content;
+}
+
+.hello {
+  position: relative;
+  width: fit-content;
+  top: 20%;
+  margin-left: 25%;
+  text-align: left;
+  font-size: 40px;
+  animation-name: fadeHome;
+  animation-duration: 4s;
+}
+
+/*Responsiveness: Ipad Pro width*/
+@media only screen and (max-width: 1024px) {
+  .hello {
+    top: 15%;
+  }
+}
+
+/*Responsiveness: Ipad width*/
+@media only screen and (max-width: 768px) {
+  .hello {
+    top: 25%;
+  }
+}
+
+/*Responsiveness: Iphone X*/
+@media only screen and (max-width: 375px) {
+  .homeContent {
+    margin-left: 10%;
+  }
+}
+
+/*Animations*/
+
+@keyframes fadeHome {
+  from {
+    color: #212931;
+  }
+  to {
+    color: #000000;
+  }
+}

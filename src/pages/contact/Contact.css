@@ -1,0 +1,91 @@
+.contact {
+  display: flex;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
+  background-color: #e7f0ed;
+}
+
+.contactContent {
+  margin-left: 60px;
+}
+
+.contactme {
+  position: relative;
+  font-size: 5vh;
+  width: fit-content;
+  top: 10vh;
+  margin-left: 18%;
+  text-align: left;
+}
+
+.contactme h6 {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.contactme p {
+  margin-top: 0px;
+  font-size: 2vh;
+}
+
+.contactForm {
+  width: 30vh;
+}
+
+.contactForm input {
+  height: 30px;
+  width: 100%;
+}
+
+.contactForm textarea {
+  width: 100%;
+}
+
+.contactForm button {
+  width: 90px;
+}
+
+/*Responsiveness: Ipad Pro - width*/
+@media only screen and (max-width: 1024px) {
+  .contactme p {
+    font-size: 20px;
+  }
+
+  .contactme {
+    width: 500px;
+  }
+}
+
+/*Responsiveness: Ipad - width*/
+@media only screen and (max-width: 768px) {
+  .contactme p {
+    font-size: 20px;
+  }
+
+  .contactme {
+    width: 500px;
+    margin-left: 5%;
+  }
+}
+
+/*Responsiveness: Iphone X - width*/
+@media only screen and (max-width: 375px) {
+  .contactme {
+    width: 300px;
+    margin-left: 0%;
+  }
+}
+
+/*Responsiveness: Iphone S - height*/
+@media only screen and (max-width: 320px) {
+  .contactme {
+    left: 5vh;
+    top: 10px;
+    width: 80vw;
+  }
+
+  .contactForm textarea {
+    height: 100px;
+  }
+}

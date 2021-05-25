@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+
+//Components
+import Navbar from './components/navbar/Navbar';
+import Mainscroller from './components/mainscroller/Mainscroller'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Hello everyone.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <body>
+        <div className="App">
+          <Navbar/>
+          <Mainscroller/>
+        </div>
+      </body>
   );
 }
 
