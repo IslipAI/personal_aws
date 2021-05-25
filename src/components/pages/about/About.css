@@ -3,9 +3,10 @@
   top: 0px;
   height: 100vh;
   background-color: #e7f0ed;
+  margin-left: 15px;
 }
 
-.aboutContent {
+.aboutContainer {
   margin-left: 60px;
 }
 
@@ -18,32 +19,177 @@
   text-align: left;
 }
 
-.aboutme p {
-  font-size: 30px;
+.aboutTitle {
+  width: fit-content;
+}
+
+.resume {
+  width: fit-content;
 }
 
 /*Responsiveness: Ipad Pro - width*/
 @media only screen and (max-width: 1024px) {
-  .aboutme p {
-    font-size: 20px;
+  .aboutContainer {
+    margin-left: 0px;
+    width: 360px;
+  }
+
+  .aboutTitle {
+    padding-left: 35%;
+  }
+
+  .aboutContent {
+    width: 700px;
+    text-align: center;
+    padding-left: 14%;
+  }
+
+  .resume {
+    padding-left: 35%;
   }
 }
 
 /*Responsiveness: Ipad - width*/
 @media only screen and (max-width: 768px) {
-  .aboutme {
-    margin-left: 4%;
+  .aboutContainer {
+    margin-left: 0px;
+    width: 360px;
   }
 
-  .aboutme p {
-    font-size: 20px;
+  .aboutTitle {
+    padding-left: 35%;
+  }
+
+  .aboutContent {
+    width: 500px;
+    text-align: center;
+    padding-left: 14%;
+  }
+
+  .resume {
+    padding-left: 35%;
   }
 }
 
-/*Responsiveness: Iphone X - width*/
-@media only screen and (max-width: 375px) {
-  .aboutme {
-    margin-left: 0%;
+/*Responsiveness: Iphone 6/7/8 Plus*/
+@media only screen and (max-width: 414px) {
+  .aboutContainer {
+    margin-left: 0px;
+    width: 360px;
+  }
+
+  .aboutTitle {
+    padding-left: 25%;
+  }
+
+  .aboutContent {
     width: 300px;
+    text-align: center;
+    padding-left: 8%;
+  }
+
+  .resume {
+    padding-left: 24%;
+  }
+}
+
+/*Responsiveness: Pixel 2*/
+@media only screen and (max-width: 411px) {
+  .aboutContainer {
+    margin-left: 0px;
+    width: 360px;
+  }
+
+  .aboutTitle {
+    padding-left: 25%;
+  }
+
+  .aboutContent {
+    width: 300px;
+    text-align: center;
+    padding-left: 8%;
+  }
+
+  .resume {
+    padding-left: 24%;
+  }
+}
+
+/*Responsiveness: Iphone X/6/7/8*/
+@media only screen and (max-width: 375px) {
+  .aboutContainer {
+    margin-left: 0px;
+    width: 360px;
+  }
+
+  .aboutme {
+    width: fit-content;
+  }
+
+  .aboutTitle {
+    width: fit-content;
+    padding-left: 22%;
+  }
+
+  .aboutContent {
+    width: 300px;
+    text-align: center;
+    padding-left: 2%;
+  }
+
+  .resume {
+    width: fit-content;
+    padding-left: 24%;
+  }
+}
+
+/*Responsiveness: Moto G4*/
+@media only screen and (max-width: 360px) {
+  .aboutContainer {
+    margin-left: 0px;
+    width: 360px;
+  }
+
+  .aboutme {
+    width: fit-content;
+  }
+
+  .aboutTitle {
+    width: fit-content;
+    padding-left: 28%;
+  }
+
+  .aboutContent {
+    width: 300px;
+    text-align: center;
+    padding-left: 8%;
+  }
+
+  .resume {
+    width: fit-content;
+    padding-left: 30%;
+  }
+}
+
+/*Responsiveness: Iphone 5/SE*/
+@media only screen and (max-width: 320px) {
+  .aboutContainer {
+    margin-left: 0px;
+    padding-left: 12%;
+    width: 360px;
+  }
+
+  .aboutTitle {
+    padding-left: 25%;
+  }
+
+  .aboutContent {
+    width: 250px;
+    text-align: center;
+    padding-left: 8%;
+  }
+
+  .resume {
+    padding-left: 24%;
   }
 }

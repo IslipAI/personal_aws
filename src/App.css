@@ -20,11 +20,10 @@
   border: 3px solid #e7f0ed;
 }
 
-
-.html, body {
+.html,
+body {
   overflow-x: hidden;
 }
-
 
 .body {
   position: relative;
@@ -44,30 +43,129 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid #e7f0ed;
 }
 
+body h1 {
+  font-size: 70px;
+}
+
+body h5 {
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+body h6 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
 /*Responsiveness: Ipad Pro*/
 @media only screen and (max-width: 1024px) {
-
-  body {
-    width: 1024px;
+  body h1 {
+    font-size: 80px;
   }
 
-  body h1 {
-    font-size: 5vh;
+  body h5 {
+    font-size: 45px;
+    margin-bottom: 0px;
   }
 
   body h6 {
-    font-size: 2vh;
+    font-size: 30px;
   }
 }
 
-
-/*Responsiveness: Iphone X*/
-@media only screen and (max-width: 375px) {
+/*Responsiveness: Ipad*/
+@media only screen and (max-width: 768px) {
   body h1 {
-    font-size: 4vh;
+    font-size: 60px;
+  }
+
+  body h5 {
+    font-size: 35px;
+    margin-bottom: 0px;
   }
 
   body h6 {
-    font-size: 3vh;
+    font-size: 25px;
+  }
+}
+
+/*Responsiveness: Iphone 6/7/8 Plus*/
+@media only screen and (max-width: 414px) {
+  body h1 {
+    font-size: 45px;
+  }
+
+  body h5 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+
+  body h6 {
+    font-size: 20px;
+  }
+}
+
+/*Responsiveness: Pixel 2*/
+@media only screen and (max-width: 411px) {
+  body h1 {
+    font-size: 45px;
+  }
+
+  body h5 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+
+  body h6 {
+    font-size: 20px;
+  }
+}
+
+/*Responsiveness: Iphone X and Iphone 6/7/8*/
+@media only screen and (max-width: 375px) {
+  body h1 {
+    font-size: 40px;
+  }
+
+  body h5 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  body h6 {
+    font-size: 15px;
+  }
+}
+
+/*Responsiveness: Moto G4*/
+@media only screen and (max-width: 360px) {
+  body h1 {
+    font-size: 40px;
+  }
+
+  body h5 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  body h6 {
+    font-size: 15px;
+  }
+}
+
+/*Responsiveness: Iphone 5/SE*/
+@media only screen and (max-width: 320px) {
+  body h1 {
+    font-size: 30px;
+  }
+
+  body h5 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  body h6 {
+    font-size: 15px;
   }
 }

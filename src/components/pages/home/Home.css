@@ -1,55 +1,67 @@
 .home {
-    display: flex;
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    background-color: #212931;
-  }
-  
+  display: flex;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #212931;
+}
+
+.homeContent {
+  width: fit-content;
+}
+
+.hello {
+  position: relative;
+  width: fit-content;
+  top: 20%;
+  margin-left: 25%;
+  text-align: left;
+  font-size: 40px;
+  animation-name: fadeHome;
+  animation-duration: 4s;
+}
+
+/*Responsiveness: Ipad Pro width*/
+@media only screen and (max-width: 1024px) {
   .homeContent {
-    width: fit-content;
+    margin-left: 12%;
   }
-  
-  .hello {
-    position: relative;
-    width: fit-content;
-    top: 20%;
-    margin-left: 25%;
-    text-align: left;
-    font-size: 40px;
-    animation-name: fadeHome;
-    animation-duration: 4s;
+}
+
+/*Responsiveness: Ipad width*/
+@media only screen and (max-width: 768px) {
+  .homeContent {
+    margin-left: 12%;
   }
-  
-  /*Responsiveness: Ipad Pro width*/
-  @media only screen and (max-width: 1024px) {
-    .hello {
-      top: 15%;
-    }
+}
+
+/*Responsiveness: Pixel 2*/
+@media only screen and (max-width: 411px) {
+  .homeContent {
+    margin-left: 0%;
   }
-  
-  /*Responsiveness: Ipad width*/
-  @media only screen and (max-width: 768px) {
-    .hello {
-      top: 25%;
-    }
+}
+
+/*Responsiveness: Iphone X/6/7/8*/
+@media only screen and (max-width: 375px) {
+  .homeContent {
+    margin-left: 0%;
   }
-  
-  /*Responsiveness: Iphone X*/
-  @media only screen and (max-width: 375px) {
-    .homeContent {
-      margin-left: 10%;
-    }
+}
+
+/*Responsiveness: Moto G4*/
+@media only screen and (max-width: 360px) {
+  .homeContent {
+    margin-left: 4%;
   }
-  
-  /*Animations*/
-  
-  @keyframes fadeHome {
-    from {
-      color: #212931;
-    }
-    to {
-      color: #000000;
-    }
+}
+
+/*Animations*/
+@keyframes fadeHome {
+  from {
+    color: #212931;
   }
-  
+  to {
+    color: #000000;
+  }
+}

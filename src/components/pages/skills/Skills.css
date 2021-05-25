@@ -5,7 +5,7 @@
   background-color: #435969;
 }
 
-.skillsContent {
+.skillsContainer {
   margin-left: 60px;
 }
 
@@ -16,6 +16,22 @@
   top: 20vh;
   margin-left: 22%;
   text-align: left;
+}
+
+.skillsTitle {
+  width: fit-content;
+}
+
+.skillsSubtitleLanguages {
+  width: fit-content;
+}
+
+.skillsSubtitleFrameworks {
+  width: fit-content;
+}
+
+.skillsSubtitleTools {
+  width: fit-content;
 }
 
 .myskills h6 {
@@ -30,19 +46,240 @@
 
 /*Responsiveness: Ipad Pro*/
 @media only screen and (max-width: 1024px) {
-  .myskills p {
-    font-size: 20px;
+  .skillsContainer {
+    margin-left: 0px;
   }
+
   .myskills {
-    width: fit-content;
-    height: fit-content;
-    margin-left: 5%;
+    margin: 0px;
+    width: 360px;
+  }
+
+  .skillsTitle {
+    padding-left: 110%;
+  }
+
+  .skillsSubtitleLanguages {
+    padding-left: 105%;
+  }
+
+  .skillsSubtitleFrameworks {
+    padding-left: 75%;
+  }
+
+  .skillsSubtitleTools {
+    padding-left: 123%;
+  }
+
+  .skillsContent {
+    width: 800px;
+    text-align: center;
+    padding-left: 35%;
   }
 }
 
-/*Responsiveness: Iphone X*/
+/*Responsiveness: Ipad*/
+@media only screen and (max-width: 768px) {
+  .skillsContainer {
+    margin-left: 0px;
+  }
+
+  .myskills {
+    margin: 0px;
+    width: 360px;
+  }
+
+  .skillsTitle {
+    padding-left: 85%;
+  }
+
+  .skillsSubtitleLanguages {
+    padding-left: 80%;
+  }
+
+  .skillsSubtitleFrameworks {
+    padding-left: 58%;
+  }
+
+  .skillsSubtitleTools {
+    padding-left: 90%;
+  }
+
+  .skillsContent {
+    width: 500px;
+    text-align: center;
+    padding-left: 35%;
+  }
+}
+
+/*Responsiveness: Iphone 6/7/8 Plus*/
+@media only screen and (max-width: 414px) {
+  .skillsContainer {
+    margin-left: 15px;
+  }
+
+  .myskills {
+    margin: 0px;
+    width: 360px;
+  }
+
+  .skillsTitle {
+    padding-left: 36%;
+  }
+
+  .skillsSubtitleLanguages {
+    padding-left: 34%;
+  }
+
+  .skillsSubtitleFrameworks {
+    padding-left: 20%;
+  }
+
+  .skillsSubtitleTools {
+    padding-left: 43%;
+  }
+
+  .skillsContent {
+    width: 300px;
+    text-align: center;
+    padding-left: 10%;
+  }
+}
+
+/*Responsiveness: Pixel 2*/
+@media only screen and (max-width: 411px) {
+  .skillsContainer {
+    margin-left: 15px;
+  }
+
+  .myskills {
+    margin: 0px;
+    width: 360px;
+  }
+
+  .skillsTitle {
+    padding-left: 36%;
+  }
+
+  .skillsSubtitleLanguages {
+    padding-left: 34%;
+  }
+
+  .skillsSubtitleFrameworks {
+    padding-left: 20%;
+  }
+
+  .skillsSubtitleTools {
+    padding-left: 43%;
+  }
+
+  .skillsContent {
+    width: 300px;
+    text-align: center;
+    padding-left: 10%;
+  }
+}
+
+/*Responsiveness: Iphone X/6/7/8*/
 @media only screen and (max-width: 375px) {
-  .skills {
+  .skillsContainer {
     width: 375px;
+    margin-left: 0px;
+  }
+
+  .myskills {
+    margin: 0px;
+    width: 360px;
+    padding-left: 10px;
+  }
+
+  .skillsTitle {
+    padding-left: 34%;
+  }
+
+  .skillsSubtitleLanguages {
+    padding-left: 34%;
+  }
+
+  .skillsSubtitleFrameworks {
+    padding-left: 20%;
+  }
+
+  .skillsSubtitleTools {
+    padding-left: 40%;
+  }
+
+  .skillsContent {
+    width: 300px;
+    text-align: center;
+    padding-left: 7%;
+  }
+}
+
+/*Responsiveness: Moto G4*/
+@media only screen and (max-width: 360px) {
+  .skillsContainer {
+    margin-left: 15px;
+  }
+
+  .myskills {
+    margin: 0px;
+    width: 360px;
+  }
+
+  .skillsTitle {
+    padding-left: 34%;
+  }
+
+  .skillsSubtitleLanguages {
+    padding-left: 34%;
+  }
+
+  .skillsSubtitleFrameworks {
+    padding-left: 20%;
+  }
+
+  .skillsSubtitleTools {
+    padding-left: 40%;
+  }
+
+  .skillsContent {
+    width: 300px;
+    text-align: center;
+    padding-left: 7%;
+  }
+}
+
+/*Responsiveness: Iphone 5/SE*/
+@media only screen and (max-width: 320px) {
+  .skillsContainer {
+    margin-left: 35px;
+  }
+
+  .myskills {
+    margin: 0px;
+    width: 320px;
+  }
+
+  .skillsTitle {
+    padding-left: 40%;
+  }
+
+  .skillsSubtitleLanguages {
+    padding-left: 38%;
+  }
+
+  .skillsSubtitleFrameworks {
+    padding-left: 22%;
+  }
+
+  .skillsSubtitleTools {
+    padding-left: 47%;
+  }
+
+  .skillsContent {
+    width: 300px;
+    text-align: center;
+    padding-left: 10%;
   }
 }

@@ -12,11 +12,18 @@
 
 .contactme {
   position: relative;
-  font-size: 5vh;
   width: fit-content;
   top: 10vh;
   margin-left: 18%;
   text-align: left;
+}
+
+.contactTitle {
+  width: fit-content;
+}
+
+.sociallinks {
+  width: fit-content;
 }
 
 .contactme h6 {
@@ -24,68 +31,182 @@
   margin-top: 10px;
 }
 
-.contactme p {
-  margin-top: 0px;
-  font-size: 2vh;
-}
-
-.contactForm {
-  width: 30vh;
-}
-
-.contactForm input {
-  height: 30px;
-  width: 100%;
-}
-
-.contactForm textarea {
-  width: 100%;
-}
-
-.contactForm button {
-  width: 90px;
-}
-
 /*Responsiveness: Ipad Pro - width*/
 @media only screen and (max-width: 1024px) {
-  .contactme p {
-    font-size: 20px;
+  .contact {
+    width: 1024px;
+  }
+
+  .contactContent {
+    margin-left: 30px;
+    width: 360px;
   }
 
   .contactme {
-    width: 500px;
+    width: fit-content;
+    padding-left: 55%;
+  }
+
+  .contactTitle {
+    padding-left: 22%;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 80px;
+  }
+
+  .sociallinks {
+    width: fit-content;
+    padding-left: 60%;
   }
 }
 
 /*Responsiveness: Ipad - width*/
 @media only screen and (max-width: 768px) {
-  .contactme p {
-    font-size: 20px;
+  .contact {
+    width: 768px;
+  }
+
+  .contactContent {
+    margin-left: 30px;
+    width: 360px;
   }
 
   .contactme {
-    width: 500px;
-    margin-left: 5%;
+    width: fit-content;
+    padding-left: 35%;
+  }
+
+  .contactTitle {
+    padding-left: 22%;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 45px;
+  }
+
+  .sociallinks {
+    width: fit-content;
+    padding-left: 60%;
   }
 }
 
-/*Responsiveness: Iphone X - width*/
+/*Responsiveness: Pixel 2*/
+@media only screen and (max-width: 414px) {
+  .contact {
+    width: 411px;
+  }
+
+  .contactContent {
+    margin-left: 30px;
+    width: 360px;
+  }
+
+  .contactme {
+    width: fit-content;
+  }
+
+  .contactTitle {
+    padding-left: 22%;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 45px;
+  }
+
+  .sociallinks {
+    width: fit-content;
+    padding-left: 50%;
+  }
+}
+
+/*Responsiveness: Pixel 2*/
+@media only screen and (max-width: 411px) {
+  .contact {
+    width: 411px;
+  }
+
+  .contactContent {
+    margin-left: 30px;
+    width: 360px;
+  }
+
+  .contactme {
+    width: fit-content;
+  }
+
+  .contactTitle {
+    padding-left: 22%;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 45px;
+  }
+
+  .sociallinks {
+    width: fit-content;
+    padding-left: 53%;
+  }
+}
+
+/*Responsiveness: Iphone X/6/7/8 - width*/
 @media only screen and (max-width: 375px) {
-  .contactme {
-    width: 300px;
-    margin-left: 0%;
+  .contact {
+    width: 370px;
+  }
+
+  .contactContent {
+    margin-left: 30px;
+    width: 360px;
+  }
+
+  .contactTitle {
+    width: fit-content;
+    padding-left: 18%;
+  }
+
+  .sociallinks {
+    width: fit-content;
+    padding-left: 48%;
   }
 }
 
-/*Responsiveness: Iphone S - height*/
-@media only screen and (max-width: 320px) {
-  .contactme {
-    left: 5vh;
-    top: 10px;
-    width: 80vw;
+/*Responsiveness: Moto G4*/
+@media only screen and (max-width: 360px) {
+  .contact {
+    width: 360px;
   }
 
-  .contactForm textarea {
-    height: 100px;
+  .contactContent {
+    margin-left: 30px;
+    width: 360px;
+  }
+
+  .contactTitle {
+    width: fit-content;
+    padding-left: 18%;
+  }
+
+  .sociallinks {
+    width: fit-content;
+    padding-left: 45%;
+  }
+}
+
+/*Responsiveness: Iphone 5/SE*/
+@media only screen and (max-width: 320px) {
+  .contact {
+    width: 320px;
+  }
+
+  .contactContent {
+    margin-left: 50px;
+    width: 320px;
+  }
+
+  .contactTitle {
+    width: fit-content;
+    padding-left: 18%;
+  }
+
+  .sociallinks {
+    width: fit-content;
+    padding-left: 45%;
   }
 }
