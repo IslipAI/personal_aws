@@ -79,17 +79,17 @@
   }
 
   .aboutTitle {
-    padding-left: 25%;
+    padding-left: 10%;
   }
 
   .aboutContent {
     width: 300px;
     text-align: center;
-    padding-left: 8%;
+    padding-left: 0%;
   }
 
   .resume {
-    padding-left: 24%;
+    padding-left: 10%;
   }
 }
 
@@ -101,17 +101,17 @@
   }
 
   .aboutTitle {
-    padding-left: 25%;
+    padding-left: 15%;
   }
 
   .aboutContent {
     width: 300px;
     text-align: center;
-    padding-left: 8%;
+    padding-left: 0%;
   }
 
   .resume {
-    padding-left: 24%;
+    padding-left: 15%;
   }
 }
 
@@ -124,6 +124,7 @@
 
   .aboutme {
     width: fit-content;
+    margin-left: 15px;
   }
 
   .aboutTitle {
@@ -156,18 +157,18 @@
 
   .aboutTitle {
     width: fit-content;
-    padding-left: 28%;
+    padding-left: 25%;
   }
 
   .aboutContent {
     width: 300px;
     text-align: center;
-    padding-left: 8%;
+    padding-left: 5%;
   }
 
   .resume {
     width: fit-content;
-    padding-left: 30%;
+    padding-left: 28%;
   }
 }
 

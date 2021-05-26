@@ -19,10 +19,12 @@
 }
 
 .contactTitle {
+  padding-left: 15%;
   width: fit-content;
 }
 
 .sociallinks {
+  padding-left: 15%;
   width: fit-content;
 }
 
@@ -101,11 +103,12 @@
   }
 
   .contactme {
+    padding-left: 0%;
     width: fit-content;
   }
 
   .contactTitle {
-    padding-left: 22%;
+    padding-left: 0%;
     margin-bottom: 60px;
     text-align: center;
     line-height: 45px;
@@ -113,7 +116,7 @@
 
   .sociallinks {
     width: fit-content;
-    padding-left: 50%;
+    padding-left: 35%;
   }
 }
 
@@ -129,11 +132,12 @@
   }
 
   .contactme {
+    padding-left: 0%;
     width: fit-content;
   }
 
   .contactTitle {
-    padding-left: 22%;
+    padding-left: 0%;
     margin-bottom: 60px;
     text-align: center;
     line-height: 45px;
@@ -141,7 +145,7 @@
 
   .sociallinks {
     width: fit-content;
-    padding-left: 53%;
+    padding-left: 35%;
   }
 }
 
@@ -152,8 +156,12 @@
   }
 
   .contactContent {
-    margin-left: 30px;
     width: 360px;
+  }
+
+  .contactme {
+    margin-left: 0px;
+    padding-left: 20px;
   }
 
   .contactTitle {
@@ -170,7 +178,7 @@
 /*Responsiveness: Moto G4*/
 @media only screen and (max-width: 360px) {
   .contact {
-    width: 360px;
+    width: 375px;
   }
 
   .contactContent {
@@ -180,12 +188,12 @@
 
   .contactTitle {
     width: fit-content;
-    padding-left: 18%;
+    padding-left: 20%;
   }
 
   .sociallinks {
     width: fit-content;
-    padding-left: 45%;
+    padding-left: 48%;
   }
 }
 
@@ -193,11 +201,13 @@
 @media only screen and (max-width: 320px) {
   .contact {
     width: 320px;
+    margin-left: 50px;
   }
 
   .contactContent {
-    margin-left: 50px;
+    margin-left: 0px;
     width: 320px;
+    padding-left: 12%;
   }
 
   .contactTitle {

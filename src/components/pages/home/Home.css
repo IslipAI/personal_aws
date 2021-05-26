@@ -35,6 +35,13 @@
   }
 }
 
+/*Responsiveness: Iphone 6/7/8 Plus*/
+@media only screen and (max-width: 414px) {
+  .homeContent {
+    margin-left: 0%;
+  }
+}
+
 /*Responsiveness: Pixel 2*/
 @media only screen and (max-width: 411px) {
   .homeContent {
@@ -53,6 +60,13 @@
 @media only screen and (max-width: 360px) {
   .homeContent {
     margin-left: 4%;
+  }
+}
+
+/*Responsiveness: Iphone 5/SE*/
+@media only screen and (max-width: 320px) {
+  .homeContent {
+    margin-left: 20%;
   }
 }
 
