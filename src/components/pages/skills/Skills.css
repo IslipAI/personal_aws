@@ -1,36 +1,23 @@
 .skills {
-  display: flex;
-  top: 0px;
-  height: 100vh;
   background-color: #435969;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  align-items: center;
 }
 
 .skillsContainer {
-  margin-left: 60px;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
 }
 
 .myskills {
   position: relative;
   width: fit-content;
-  top: 20vh;
-  margin-left: 22%;
+  margin-left: 25%;
   text-align: left;
-}
-
-.skillsTitle {
-  width: fit-content;
-}
-
-.skillsSubtitleLanguages {
-  width: fit-content;
-}
-
-.skillsSubtitleFrameworks {
-  width: fit-content;
-}
-
-.skillsSubtitleTools {
-  width: fit-content;
 }
 
 .myskills h6 {

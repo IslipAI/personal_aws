@@ -1,31 +1,23 @@
 .contact {
   display: flex;
+  height: 100%;
+  width: 100%;
   top: 0px;
-  height: 100vh;
-  width: 100vw;
+  align-items: center;
   background-color: #e7f0ed;
 }
 
 .contactContent {
-  margin-left: 60px;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
 }
 
 .contactme {
   position: relative;
   width: fit-content;
-  top: 10vh;
-  margin-left: 18%;
+  margin-left: 35%;
   text-align: left;
-}
-
-.contactTitle {
-  padding-left: 15%;
-  width: fit-content;
-}
-
-.sociallinks {
-  padding-left: 15%;
-  width: fit-content;
 }
 
 .contactme h6 {

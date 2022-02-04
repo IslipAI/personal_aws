@@ -1,22 +1,23 @@
 .home {
   display: flex;
-  top: 0px;
   height: 100%;
   width: 100%;
+  top: 0px;
   background-color: #212931;
+  align-items: center;
 }
 
 .homeContent {
+  display: flex;
   width: fit-content;
+  height: fit-content;
 }
 
 .hello {
   position: relative;
   width: fit-content;
-  top: 20%;
   margin-left: 25%;
   text-align: left;
-  font-size: 40px;
   animation-name: fadeHome;
   animation-duration: 4s;
 }

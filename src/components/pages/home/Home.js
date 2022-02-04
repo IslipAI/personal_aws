@@ -7,14 +7,7 @@ class Home extends Component{
         return(
             <div className="home">
                 <div className="homeContent">
-
-                    <div className="hello">
-                        <h1>Hello<br/>I'm Alex,<br/>fullstack developer.</h1>
-                    </div>
-
-                    {/* <div class="homeAnimation">
-                        {<IslipThree/> }
-                    </div> */}
+                        <h1 className='hello'>Hello<br/>I'm Alex,<br/>fullstack developer.</h1>
                 </div>
             </div>
         )
